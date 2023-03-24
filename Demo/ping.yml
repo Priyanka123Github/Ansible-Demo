@@ -5,5 +5,9 @@
   tasks:
     - name: Test connection
       any_errors_fatal: true 
-      action: ping 
+      action: ping
+      register: output
+
+    - debug:
+          msg: "Test connection successful!" 
 ...
