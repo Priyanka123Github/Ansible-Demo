@@ -1,5 +1,5 @@
 ---
-- hosts: 35.170.67.237
+- hosts: 172.31.10.95
   become: true
   gather_facts: no
   tasks:
