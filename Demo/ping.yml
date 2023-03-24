@@ -4,5 +4,6 @@
   gather_facts: no
   tasks:
     - name: Test connection
+      any_errors_fatal: true 
       action: ping 
 ...
