@@ -1,0 +1,1 @@
+172.31.10.95 ansible_ssh_pass=vagrant ansible_ssh_user=vagrant 
