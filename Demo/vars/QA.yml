@@ -1,0 +1,4 @@
+server_name: "elm-qa.nxp.com"
+host_entry_dr1: "92.120.52.140"
+host_entry_dr2: "92.120.52.233"
+env_match: "elmnsqa"

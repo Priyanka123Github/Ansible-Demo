@@ -1,0 +1,2 @@
+server_name: "elm-dev.nxp.com"
+env_match: "elmnsdev"
