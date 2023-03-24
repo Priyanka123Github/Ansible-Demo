@@ -1,6 +1,6 @@
 ---
 - hosts: 172.31.10.95
-  become: true
+  become: false
   gather_facts: no
   tasks:
     - name: Test connection
