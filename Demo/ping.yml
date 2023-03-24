@@ -3,7 +3,7 @@
   remote_user: "ec2-user"
   gather_facts: no
   vars_files:
-    - ./vars/common_vars.yml
+    - ./vars/common.yml
   tasks:
     - name: Test connection     
       action: ping
