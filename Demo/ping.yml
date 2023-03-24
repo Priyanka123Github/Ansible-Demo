@@ -2,8 +2,8 @@
 - hosts: "ping_server"
   remote_user: "ec2-user"
   gather_facts: no
-  vars_files:
-    - ./vars/common.yml
+  vars:
+      ping_server: 172.31.10.95
   tasks:
     - name: Test connection     
       action: ping
