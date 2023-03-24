@@ -3,11 +3,8 @@
   remote_user: "ec2-user"
   gather_facts: no
   tasks:
-    - name: Test connection
-      any_errors_fatal: true 
+    - name: Test connection     
       action: ping
-      register: output
-
     - debug:
           msg: "Test connection successful!" 
 ...
