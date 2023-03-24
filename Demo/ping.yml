@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.10.195
+- hosts: 172.31.10.95
   remote_user: "ec2-user"
   gather_facts: no
   tasks:
